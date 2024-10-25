@@ -19,8 +19,7 @@ Este repositorio incluye las siguientes secciones y archivos clave:
 
 Puedes acceder a la versión desplegada de la tienda online a través del siguiente enlace:
 
-[todointerconectado.com/mystore](https://todointerconectado.com/mystore)
-
+ [![GitHub Todointerconectado](https://img.shields.io/badge/todointerconectado.com/-mystore-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](https://todointerconectado.com/mystore)
 
 ### Tecnologías Utilizadas
 
@@ -40,25 +39,25 @@ Puedes acceder a la versión desplegada de la tienda online a través del siguie
 /my-store
 ├── <a href="./Index.html">Index.html</a>
 ├── <a href="./README.md">README.md</a>
-├── <a href="./docs" style="color:orange;">/docs</a>
+├── <a href="./docs">/docs</a>
 │   ├── <a href="./docs/PRE-ENTREGA.md">PRE-ENTREGA.md</a>
 │   └── <a href="./docs/ENTREGA-FINAL.md">ENTREGA-FINAL.md</a>
-├── <a href="./assets" style="color:orange;">/assets</a>
-│   ├── <a href="./assets/favicon/" style="color:orange;">favicon</a>
-│   └── <a href="./assets/images/" style="color:orange;">images</a>
-└── <a href="./src" style="color:orange;">/src</a>
-    ├── <a href="./src/js" style="color:orange;">/js</a>
-    │   ├── <a href="./src/js/modules" style="color:orange;">/modules</a>
+├── <a href="./assets">/assets</a>
+│   ├── <a href="./assets/favicon/">favicon</a>
+│   └── <a href="./assets/images/">images</a>
+└── <a href="./src">/src</a>
+    ├── <a href="./src/js">/js</a>
+    │   ├── <a href="./src/js/modules">/modules</a>
     │   │   └── <a href="./src/js/modules/api.mjs">api.mjs</a>
     │   └── <a href="./src/js/apps.mjs">apps.mjs</a>
-    └── <a href="./src/css" style="color:orange;">/css</a>
+    └── <a href="./src/css">/css</a>
         ├── <a href="./src/main.css">main.css</a>
-        ├── <a href="./src/css/base" style="color:orange;">/base</a>
+        ├── <a href="./src/css/base">/base</a>
         │   └── <a href="./src/css/base/variables.css">variables.css</a>
-        ├── <a href="./src/css/components" style="color:orange;">/components</a>
+        ├── <a href="./src/css/components" >/components</a>
         │   ├── <a href="./src/css/components/button.css">button.css</a>
         │   └── <a href="./src/css/components/card.css">card.css</a>
-        └── <a href="./src/css/layout" style="color:orange;">/layout</a>
+        └── <a href="./src/css/layout" >/layout</a>
             ├── <a href="./src/css/layout/footer.css">footer.css</a>
             ├── <a href="./src/css/layout/header.css">header.css</a>
             └── <a href="./src/css/layout/layout.css">layout.css</a>
