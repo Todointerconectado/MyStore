@@ -1,0 +1,11 @@
+/* Variables CSS globales (colores, fuentes) */
+
+:root {
+    /* VARIABLES DE COLORES */
+    --color-primary: blue;
+
+
+
+    /* VARIABLES DE FUENTES */
+    --family-primary: monospace;
+}
