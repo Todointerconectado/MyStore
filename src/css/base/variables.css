@@ -2,10 +2,13 @@
 
 :root {
     /* VARIABLES DE COLORES */
-    --color-primary: blue;
-
+    --color-primary-aside:  #79d0ab;
+    --color-primary-header: #023E8A;
+    --color-primary-main: #24A56F34;
+    --color-primary-footer: #15151534;
 
 
     /* VARIABLES DE FUENTES */
-    --family-primary: monospace;
+    --family-primary: monospace, sans-serif;
+    --size-primary: 1.6rem;
 }
