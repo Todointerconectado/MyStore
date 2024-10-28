@@ -2,5 +2,8 @@
     "conventionalCommits.scopes": [
         "arquitectura",
         ".md"
+    ],
+    "cSpell.words": [
+        "ofertas"
     ]
 }

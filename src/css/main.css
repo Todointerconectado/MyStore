@@ -1,4 +1,11 @@
 /** Archivo principal que importa todos los módulos */
 
 @import url('./layout/layout.css');
+@import url('./layout/aside.css');
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
 
+.main {
+    padding-top: 30px;
+    min-height: 100dvh;
+}
