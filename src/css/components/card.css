@@ -1,2 +1,71 @@
-/* Estilos para tarjetas o paneles */
+.product__cards {
+    border: 2px solid #ff0000;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    height: 400px;
+    grid-template-rows: 130px auto;
+    display: grid;
+    grid-template-areas:
+        'img'
+        'card__content-text';
+    gap: 0px;
+    background: #fff;
+}
+
+.card__figure {
+    border-radius: var(--border-radius-top);
+    width: 100%;
+    grid-area: img;
+}
+
+.card__img {
+    border-radius: var(--border-radius-top);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card__content-text {
+    border: 2px solid black;
+    grid-area: card__content-text;
+    display: grid;
+    grid-direction: column;
+}
+
+.card__header {
+    border: 2px solid #00ffff;
+    display: grid;
+}
+
+.card__name {
+    border: 2px solid red;
+    text-align: center;
+    font-size: var(--card-title-size);
+    color: var(--color-card-name);
+}
+
+.card__category {
+    border: 2px solid blue;
+}
+
+.card__description {
+    border: 2px solid #ff8000;
+    color: var(--color-card-text);
+    font-family: var(--family-secondary);
+    font-size: var(--size-primary);
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.card__footer {
+    border: 2px solid #800080;
+}
 
