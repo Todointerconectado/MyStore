@@ -7,8 +7,17 @@
     --color-primary-main: #24A56F34;
     --color-primary-footer: #15151534;
 
+    /* VARIABRES DE LAS CARD */
+    --color-card-text: #6c7289;
+    --color-card-name: #1c232b;
 
-    /* VARIABLES DE FUENTES */
-    --family-primary: monospace, sans-serif;
+    /* VARIABLES */
+    --family-primary: "Fraunces", monospace, sans-serif;
+    --family-secondary: "Montserrat", monospace, sans-serif;
     --size-primary: 1.6rem;
+    --section-title-size: 2.5rem;
+    --card-title-size: 2rem;
+
+    /* VARIABLES DE ASPECTO */
+    --border-radius-top: 10px 10px 0 0;
 }

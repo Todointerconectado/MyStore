@@ -7,6 +7,11 @@
     <title>My Store</title>
     <link rel="stylesheet" href="./src/css/main.css">
 
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,722,0..100&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <!-- FAVICONS -->
     <link rel="icon" type="image/png" href="./assets/icons/favicon/favicon-48x48.png" sizes="48x48" />
     <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon/favicon.svg" />
@@ -19,7 +24,9 @@
     <script defer src="https://kit.fontawesome.com/4600a4ff4e.js" crossorigin="anonymous"></script>
 </head>
 <body class="body">
-    <aside class="aside">aside</aside>
+    <aside class="aside">
+        <p class="aside__p">¡Aprovecha nuestros descuentos exclusivos! 🎉</p>
+    </aside>
     <header class="header">
         <figure class="logo">
             <a class="logo__a" href="#">
@@ -51,10 +58,102 @@
     <main class="main">
         <section class="product">
             <h2 class="product__title">Productos</h2>
-            <div class="product__container">
-                <article class="product__card">
-                    <figure class="product__image">
-                        <img src="ruta-de-la-imagen.jpg" alt="Imagen del producto">
+            <div class="product__cards">
+                <article class="card">
+                    <figure class="card__figure">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto">
+                    </figure>
+                    <div class="card__content-text">
+                        <header class="card__header">
+                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
+                            <div class="card__category">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Categoría</span>
+                            </div>
+                        </header>
+                        <section class="card__description">
+                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                        </section>
+                        <footer class="card__footer">
+                            <div class="card__pricing">
+                                <del class="card__price-old">
+                                    <i class="fa-solid fa-dollar-sign"></i>129.99
+                                </del>
+                                <strong class="card__price-new">
+                                    <i class="fa-solid fa-dollar-sign"></i>99.99
+                                </strong>
+                            </div>
+                            <button type="button" class="card-btn">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Comprar ahora
+                            </button>
+                        </footer>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <figure class="card__figure">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto">
+                        <figcaption><i class="fa-solid fa-percent"></i></figcaption>
+                    </figure>
+                    <header class="product__header">
+                        <h2 class="product__name">Nombre del producto</h2>
+                        <p class="product__category"><i class="fa-solid fa-tag"></i>Categoría</p>
+                    </header>
+                    <section class="product__description">
+                        <p>Descripción del producto.</p>
+                    </section>
+                    <footer class="product__footer">
+                        <div class="product__pricing">
+                            <del class="product__price-old"><i class="fa-solid fa-dollar-sign"></i>129.99</del>
+                            <strong class="product__price-new"><i class="fa-solid fa-dollar-sign"></i>99.99</strong>
+                        </div>
+                        <button type="button" class="buy-button"><i class="fa-solid fa-cart-shopping"></i>Comprar ahora</button>
+                    </footer>
+                </article>
+                <article class="card">
+                    <figure class="card__figure">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto">
+                        <figcaption><i class="fa-solid fa-percent"></i></figcaption>
+                    </figure>
+                    <header class="product__header">
+                        <h2 class="product__name">Nombre del producto</h2>
+                        <p class="product__category"><i class="fa-solid fa-tag"></i>Categoría</p>
+                    </header>
+                    <section class="product__description">
+                        <p>Descripción del producto.</p>
+                    </section>
+                    <footer class="product__footer">
+                        <div class="product__pricing">
+                            <del class="product__price-old"><i class="fa-solid fa-dollar-sign"></i>129.99</del>
+                            <strong class="product__price-new"><i class="fa-solid fa-dollar-sign"></i>99.99</strong>
+                        </div>
+                        <button type="button" class="buy-button"><i class="fa-solid fa-cart-shopping"></i>Comprar ahora</button>
+                    </footer>
+                </article>
+                <article class="card">
+                    <figure class="card__figure">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto">
+                        <figcaption><i class="fa-solid fa-percent"></i></figcaption>
+                    </figure>
+                    <header class="product__header">
+                        <h2 class="product__name">Nombre del producto</h2>
+                        <p class="product__category"><i class="fa-solid fa-tag"></i>Categoría</p>
+                    </header>
+                    <section class="product__description">
+                        <p>Descripción del producto.</p>
+                    </section>
+                    <footer class="product__footer">
+                        <div class="product__pricing">
+                            <del class="product__price-old"><i class="fa-solid fa-dollar-sign"></i>129.99</del>
+                            <strong class="product__price-new"><i class="fa-solid fa-dollar-sign"></i>99.99</strong>
+                        </div>
+                        <button type="button" class="buy-button"><i class="fa-solid fa-cart-shopping"></i>Comprar ahora</button>
+                    </footer>
+                </article>
+                <article class="card">
+                    <figure class="card__figure">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto">
                         <figcaption><i class="fa-solid fa-percent"></i></figcaption>
                     </figure>
                     <header class="product__header">
@@ -73,7 +172,6 @@
                     </footer>
                 </article>
             </div>
-
         </section>
 
         <section class="reviews">
@@ -106,19 +204,25 @@
             </article>
         </section>
 
-        <section>
-            <h2 id="form">Formulario de Contacto</h2>
-            <form action="https://formspree.io/f/{form_id}" method="post">
-                <label for="name"></label>
-                <input type="text" name="name" placeholder="Nombre" required>
-    
-                <label for="email"></label>
-                <input type="email" name="email" id="" placeholder="correo" required>
-    
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" placeholder="Escribir un mensaje" required></textarea>
-    
-                <input type="submit" value="Contactar">
+        <section class="form__container">
+            <h2 class="form__container-title" id="form">Formulario de Contacto</h2>
+            <form class="form" action="https://formspree.io/f/{form_id}" method="post">
+                <label for="name" class="form__name">
+                    <span>nombre:</span>
+                    <input type="text" name="name" placeholder="Nombre" required>
+                </label>
+
+                <label for="email" class="form__email">
+                    <span>Correo:</span>
+                    <input type="email" name="email" id="" placeholder="correo" required>
+                </label>
+
+                <label for="mensaje" class="form__area">
+                    <spam>Mensaje:</spam>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribir un mensaje" required></textarea>
+                </label>
+
+                <input type="submit" value="Habremos">
             </form>
         </section>
     </main>

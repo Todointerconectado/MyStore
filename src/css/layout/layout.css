@@ -20,11 +20,17 @@ html {
         "aside"
         "main"
         "footer"
-        "header"
-    ;
+        "header";
     gap: 0px;
     font-family: var(--family-primary);
     font-size: var(--size-primary);
+}
+
+h1, h2, h3, h4 {
+    text-wrap: balance;
+}
+p {
+    text-wrap: pretty;
 }
 
 .header, .main, .footer {
