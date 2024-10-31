@@ -5,12 +5,48 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    list-style: none;
+    text-decoration: none;
 }
-
 html {
     font-size: 62.5%;
 }
-
 .body {
-    
+    display: grid;
+    min-height: 100dvh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "aside"
+        "main"
+        "footer"
+        "header";
+    gap: 0px;
+    font-family: var(--family-primary);
+    font-size: var(--size-14);
+}
+
+h1, h2, h3, h4 {
+    text-wrap: balance;
+}
+p {
+    text-wrap: pretty;
+}
+
+.aside {
+    grid-area: aside;
+    background: var(--color-primary-aside);
+}
+
+.header {
+    grid-area: header;
+    background: var(--color-primary-header);
+}
+.main {
+    grid-area: main;
+    background: var(--color-primary-main);
+}
+.footer {
+    grid-area: footer;
+    background: var(--color-primary-footer);
 }

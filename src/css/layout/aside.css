@@ -1,0 +1,10 @@
+.aside {
+    padding: 3px;
+    position: sticky;
+    width: 100%;
+    height: auto;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+}

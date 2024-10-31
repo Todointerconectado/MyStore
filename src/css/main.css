@@ -1,4 +1,48 @@
 /** Archivo principal que importa todos los módulos */
 
 @import url('./layout/layout.css');
+@import url('./layout/aside.css');
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
 
+@import url('./components/card.css');
+
+.main {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/** Productos */
+.product {
+}
+
+.product__title {
+    padding: 15px 0;
+    text-align: center;
+    font-size: var(--size-25);
+    font-weight: 700;
+}
+
+
+
+
+/** Reseñas */
+.reviews {
+    border: 1px solid;
+}
+
+/** Formulario */
+.form__container {
+    border: 1px solid;
+}
+.form__container-title {
+    padding: 10px 0;
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
