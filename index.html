@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tienda online de My Store - Encuentra los mejores productos y ofertas.">
     <title>My Store</title>
+
+    
+    <script defer type="module" src="./src/js/app.mjs"></script>
+    <script defer src="https://kit.fontawesome.com/4600a4ff4e.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./src/css/main.css">
 
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,722,0..100&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
 
     <!-- FAVICONS -->
     <link rel="icon" type="image/png" href="./assets/icons/favicon/favicon-48x48.png" sizes="48x48" />
@@ -19,9 +24,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/favicon/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="My Store" />
     <link rel="manifest" href="./assets/icons/favicon/site.webmanifest" />
-
-    <!-- FONTAWESOME -->
-    <script defer src="https://kit.fontawesome.com/4600a4ff4e.js" crossorigin="anonymous"></script>
 </head>
 <body class="body">
     <aside class="aside">
@@ -59,16 +61,17 @@
         <section class="product">
             <h2 class="product__title">Productos</h2>
             <div class="product__cards">
+                
                 <article class="card">
                     <figure class="card__figure">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto">
+                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
                     </figure>
                     <div class="card__content-text">
                         <header class="card__header">
                             <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
                             <div class="card__category">
                                 <i class="fa-solid fa-tag"></i>
-                                <span>Categoría</span>
+                                <span>Perfume</span>
                             </div>
                         </header>
                         <section class="card__description">
@@ -76,101 +79,207 @@
                         </section>
                         <footer class="card__footer">
                             <div class="card__pricing">
-                                <del class="card__price-old">
-                                    <i class="fa-solid fa-dollar-sign"></i>129.99
-                                </del>
                                 <strong class="card__price-new">
                                     <i class="fa-solid fa-dollar-sign"></i>99.99
                                 </strong>
+                                <del class="card__price-old">
+                                    <i class="fa-solid fa-dollar-sign"></i>129.99
+                                </del>
                             </div>
                             <button type="button" class="card-btn">
+                                agregar al
                                 <i class="fa-solid fa-cart-shopping"></i>
-                                Comprar ahora
+                            </button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure class="card__figure">
+                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                    </figure>
+                    <div class="card__content-text">
+                        <header class="card__header">
+                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
+                            <div class="card__category">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Perfume</span>
+                            </div>
+                        </header>
+                        <section class="card__description">
+                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                        </section>
+                        <footer class="card__footer">
+                            <div class="card__pricing">
+                                <strong class="card__price-new">
+                                    <i class="fa-solid fa-dollar-sign"></i>99.99
+                                </strong>
+                                <del class="card__price-old">
+                                    <i class="fa-solid fa-dollar-sign"></i>129.99
+                                </del>
+                            </div>
+                            <button type="button" class="card-btn">
+                                agregar al
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure class="card__figure">
+                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                    </figure>
+                    <div class="card__content-text">
+                        <header class="card__header">
+                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
+                            <div class="card__category">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Perfume</span>
+                            </div>
+                        </header>
+                        <section class="card__description">
+                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                        </section>
+                        <footer class="card__footer">
+                            <div class="card__pricing">
+                                <strong class="card__price-new">
+                                    <i class="fa-solid fa-dollar-sign"></i>99.99
+                                </strong>
+                                <del class="card__price-old">
+                                    <i class="fa-solid fa-dollar-sign"></i>129.99
+                                </del>
+                            </div>
+                            <button type="button" class="card-btn">
+                                agregar al
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure class="card__figure">
+                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                    </figure>
+                    <div class="card__content-text">
+                        <header class="card__header">
+                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
+                            <div class="card__category">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Perfume</span>
+                            </div>
+                        </header>
+                        <section class="card__description">
+                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                        </section>
+                        <footer class="card__footer">
+                            <div class="card__pricing">
+                                <strong class="card__price-new">
+                                    <i class="fa-solid fa-dollar-sign"></i>99.99
+                                </strong>
+                                <del class="card__price-old">
+                                    <i class="fa-solid fa-dollar-sign"></i>129.99
+                                </del>
+                            </div>
+                            <button type="button" class="card-btn">
+                                agregar al
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure class="card__figure">
+                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                    </figure>
+                    <div class="card__content-text">
+                        <header class="card__header">
+                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
+                            <div class="card__category">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Perfume</span>
+                            </div>
+                        </header>
+                        <section class="card__description">
+                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                        </section>
+                        <footer class="card__footer">
+                            <div class="card__pricing">
+                                <strong class="card__price-new">
+                                    <i class="fa-solid fa-dollar-sign"></i>99.99
+                                </strong>
+                                <del class="card__price-old">
+                                    <i class="fa-solid fa-dollar-sign"></i>129.99
+                                </del>
+                            </div>
+                            <button type="button" class="card-btn">
+                                agregar al
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure class="card__figure">
+                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                    </figure>
+                    <div class="card__content-text">
+                        <header class="card__header">
+                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
+                            <div class="card__category">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Perfume</span>
+                            </div>
+                        </header>
+                        <section class="card__description">
+                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                        </section>
+                        <footer class="card__footer">
+                            <div class="card__pricing">
+                                <strong class="card__price-new">
+                                    <i class="fa-solid fa-dollar-sign"></i>99.99
+                                </strong>
+                                <del class="card__price-old">
+                                    <i class="fa-solid fa-dollar-sign"></i>129.99
+                                </del>
+                            </div>
+                            <button type="button" class="card-btn">
+                                agregar al
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </footer>
+                    </div>
+                </article>
+                <article class="card">
+                    <figure class="card__figure">
+                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                    </figure>
+                    <div class="card__content-text">
+                        <header class="card__header">
+                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
+                            <div class="card__category">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Perfume</span>
+                            </div>
+                        </header>
+                        <section class="card__description">
+                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                        </section>
+                        <footer class="card__footer">
+                            <div class="card__pricing">
+                                <strong class="card__price-new">
+                                    <i class="fa-solid fa-dollar-sign"></i>99.99
+                                </strong>
+                                <del class="card__price-old">
+                                    <i class="fa-solid fa-dollar-sign"></i>129.99
+                                </del>
+                            </div>
+                            <button type="button" class="card-btn">
+                                agregar al
+                                <i class="fa-solid fa-cart-shopping"></i>
                             </button>
                         </footer>
                     </div>
                 </article>
 
-                <article class="card">
-                    <figure class="card__figure">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto">
-                        <figcaption><i class="fa-solid fa-percent"></i></figcaption>
-                    </figure>
-                    <header class="product__header">
-                        <h2 class="product__name">Nombre del producto</h2>
-                        <p class="product__category"><i class="fa-solid fa-tag"></i>Categoría</p>
-                    </header>
-                    <section class="product__description">
-                        <p>Descripción del producto.</p>
-                    </section>
-                    <footer class="product__footer">
-                        <div class="product__pricing">
-                            <del class="product__price-old"><i class="fa-solid fa-dollar-sign"></i>129.99</del>
-                            <strong class="product__price-new"><i class="fa-solid fa-dollar-sign"></i>99.99</strong>
-                        </div>
-                        <button type="button" class="buy-button"><i class="fa-solid fa-cart-shopping"></i>Comprar ahora</button>
-                    </footer>
-                </article>
-                <article class="card">
-                    <figure class="card__figure">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto">
-                        <figcaption><i class="fa-solid fa-percent"></i></figcaption>
-                    </figure>
-                    <header class="product__header">
-                        <h2 class="product__name">Nombre del producto</h2>
-                        <p class="product__category"><i class="fa-solid fa-tag"></i>Categoría</p>
-                    </header>
-                    <section class="product__description">
-                        <p>Descripción del producto.</p>
-                    </section>
-                    <footer class="product__footer">
-                        <div class="product__pricing">
-                            <del class="product__price-old"><i class="fa-solid fa-dollar-sign"></i>129.99</del>
-                            <strong class="product__price-new"><i class="fa-solid fa-dollar-sign"></i>99.99</strong>
-                        </div>
-                        <button type="button" class="buy-button"><i class="fa-solid fa-cart-shopping"></i>Comprar ahora</button>
-                    </footer>
-                </article>
-                <article class="card">
-                    <figure class="card__figure">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto">
-                        <figcaption><i class="fa-solid fa-percent"></i></figcaption>
-                    </figure>
-                    <header class="product__header">
-                        <h2 class="product__name">Nombre del producto</h2>
-                        <p class="product__category"><i class="fa-solid fa-tag"></i>Categoría</p>
-                    </header>
-                    <section class="product__description">
-                        <p>Descripción del producto.</p>
-                    </section>
-                    <footer class="product__footer">
-                        <div class="product__pricing">
-                            <del class="product__price-old"><i class="fa-solid fa-dollar-sign"></i>129.99</del>
-                            <strong class="product__price-new"><i class="fa-solid fa-dollar-sign"></i>99.99</strong>
-                        </div>
-                        <button type="button" class="buy-button"><i class="fa-solid fa-cart-shopping"></i>Comprar ahora</button>
-                    </footer>
-                </article>
-                <article class="card">
-                    <figure class="card__figure">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto">
-                        <figcaption><i class="fa-solid fa-percent"></i></figcaption>
-                    </figure>
-                    <header class="product__header">
-                        <h2 class="product__name">Nombre del producto</h2>
-                        <p class="product__category"><i class="fa-solid fa-tag"></i>Categoría</p>
-                    </header>
-                    <section class="product__description">
-                        <p>Descripción del producto.</p>
-                    </section>
-                    <footer class="product__footer">
-                        <div class="product__pricing">
-                            <del class="product__price-old"><i class="fa-solid fa-dollar-sign"></i>129.99</del>
-                            <strong class="product__price-new"><i class="fa-solid fa-dollar-sign"></i>99.99</strong>
-                        </div>
-                        <button type="button" class="buy-button"><i class="fa-solid fa-cart-shopping"></i>Comprar ahora</button>
-                    </footer>
-                </article>
             </div>
         </section>
 
@@ -229,5 +338,7 @@
     <footer class="footer">
         <p>footer</p>
     </footer>
+
+    
 </body>
 </html>

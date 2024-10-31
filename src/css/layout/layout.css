@@ -23,7 +23,7 @@ html {
         "header";
     gap: 0px;
     font-family: var(--family-primary);
-    font-size: var(--size-primary);
+    font-size: var(--size-14);
 }
 
 h1, h2, h3, h4 {
@@ -31,10 +31,6 @@ h1, h2, h3, h4 {
 }
 p {
     text-wrap: pretty;
-}
-
-.header, .main, .footer {
-    padding: 10px;
 }
 
 .aside {
