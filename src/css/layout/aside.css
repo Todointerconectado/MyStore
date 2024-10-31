@@ -1,8 +1,8 @@
 .aside {
     padding: 3px;
-    position: fixed;
+    position: sticky;
     width: 100%;
-    max-height: 30px;
+    height: auto;
     top: 0;
     display: flex;
     justify-content: center;

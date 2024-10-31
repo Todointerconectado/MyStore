@@ -2,7 +2,8 @@
     "conventionalCommits.scopes": [
         "arquitectura",
         ".md",
-        "header"
+        "header",
+        "card"
     ],
     "cSpell.words": [
         "ofertas"
