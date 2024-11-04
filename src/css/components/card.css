@@ -1,6 +1,6 @@
 .product__cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
     gap: 25px;
 }
@@ -8,7 +8,7 @@
 /* Estilos para modo horizontal (landscape) */
 @media (orientation: landscape) {
     .product__cards {
-        padding: 0 10px;
+        padding: 0 20px;
     }
     .card {
         border-radius: var(--border-radius-top);
@@ -16,22 +16,23 @@
 }
 
 .card {
+    box-shadow: 0 0 10px var(--color-brack);
     overflow: hidden;
-    height: 400px;
-    grid-template-rows: 130px auto;
+    height: auto;
+    grid-template-rows: 260px auto;
     display: grid;
     grid-template-areas:
         'img'
         'card__content-text';
     gap: 0px;
     background: var(--color-white);
+    position: relative;
 }
 
 .card__figure {
     grid-area: img;
-    border-radius: var(--border-radius-top);
     width: 100%;
-    background: #d0d0d0;
+    background: var(--color-card-text);
     background: linear-gradient(-45deg, 
         #b0b0b0 0%,      /* Color más oscuro */
         #d0d0d0 30%,     /* Color intermedio */
@@ -39,7 +40,66 @@
         #d0d0d0 70%,     /* Color intermedio */
         #b0b0b0 100%);   /* Color más oscuro */
     background-size: 200%;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    overflow-x: auto; /* Habilitar desplazamiento horizontal */
+    scroll-snap-type: x mandatory; /* Activar el desplazamiento por snap en el eje X */
+
+    /* Estilos de scroll para Firefox */
+    scrollbar-width: auto; /* Esto es para Firefox */
+
+    /* Estilos de scroll en Chrome, Edge y Safari */
+    &::-webkit-scrollbar {
+        height: 10px;
+    }
+    &::-webkit-scrollbar-track {
+        background: #F8F2F2FF;
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+        border: 2px solid #FFFFFFFF;
+        border-radius: 10px;
+        background-color: #878383FF;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: #6e6e6e;
+    }
 }
+
+.card__gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 259px;
+    background: 
+    linear-gradient(to top, var(--color-brack) 20%, transparent 40%);
+    pointer-events: none; /* Permitir interacción con el contenido debajo */
+    z-index: 2;
+}
+
+.card__img {
+    position: sticky;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    aspect-ratio: 343 / 240;
+    object-fit: cover;
+    object-position: center;
+    scroll-snap-align: center;
+    z-index: 1;
+}
+
+/* Estilos específicos para Firefox */
+@-moz-document url-prefix() {
+    .card__figure {
+        scrollbar-width: thin; /* Ajusta el ancho de la barra en Firefox */
+        scrollbar-color: #8e8e8e #e0e0e0; /* Color del thumb y track en Firefox */
+    }
+}
+
 .card__figure-skeleton-loading {
     animation: skeleton 3s ease-in-out infinite;
 }
@@ -48,20 +108,13 @@
     50%  {background-position: 100%;}
     100% {background-position: 0%;}
 }
-.card__img {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 2 / 1;
-    object-fit: cover;
-    object-position: top;
-}
 
 .card__content-text {
     grid-area: card__content-text;
-    padding: 5px;
     display: grid;
     grid-template-rows: auto 1fr auto;
     color: var(--color-card-text);
+    position: relative;
 }
 
 .card__content-text,
@@ -77,18 +130,29 @@
 }
 
 .card__name {
+    padding-top: 10px;
     text-align: center;
     font-size: var(--size-2);
     color: var(--color-card-name);
 }
 
 .card__category {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    color: var(--color-white);
     font-size: var(--size-16);
+    letter-spacing: var(--letter-spacing-2);
     text-transform: uppercase;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: 5;
 }
 
 .card__description {
+    padding: 0 10px;
     color: var(--color-card-text);
     font-family: var(--family-secondary);
     font-size: var(--size-14);
@@ -97,6 +161,7 @@
 }
 
 .card__footer {
+    padding: 0 10px 20px;
     display: flex;
     flex-direction: column;
 }
