@@ -26,9 +26,11 @@
     <link rel="manifest" href="./assets/icons/favicon/site.webmanifest" />
 </head>
 <body class="body">
+
     <aside class="aside">
         <p class="aside__p">¡Aprovecha nuestros descuentos exclusivos! 🎉</p>
     </aside>
+
     <header class="header">
         <figure class="logo">
             <a class="logo__a" href="#">
@@ -38,34 +40,83 @@
         </figure>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#" class="nav__link">
-                    <i class="fa-regular fa-chart-bar"></i>
-                    <span>Inicio</span>
-                </a></li>
-                <li class="nav__item"><a href="#" class="nav__link">
-                    <i class="fa-solid fa-shop"></i>
-                    <span>Producto</span>
-                </a></li>
-                <li class="nav__item"><a href="#form" class="nav__link">
-                    <i class="fa-solid fa-user-pen"></i>
-                    <span>Contacto</span>
-                </a></li>
-                <li class="nav__item nav__item-carro"><a href="#" class="nav__link">
-                    <i class="fa-solid fa-cart-plus"></i>
-                    <span>Carrito</span>
-                </a></li>
+                <li class="nav__item">
+                    <a href="#inicio" class="nav__link nav__link-inicio">
+                        <i class="fa-solid fa-rss"></i>
+                        <span class="nav__link__span">Menu</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <i class="fa-solid fa-shop"></i>
+                        <span class="nav__link__span">Productos</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#form" class="nav__link">
+                        <i class="fa-solid fa-user-pen"></i>
+                        <span class="nav__link__span">Contacto</span>
+                    </a>
+                </li>
+                <li class="nav__item nav__item-carro">
+                        <a href="#" class="nav__link">
+                        <i class="fa-solid fa-cart-plus"></i>
+                        <span class="nav__link__span">Carrito</span>
+                    </a>
+                </li>
             </ul>
         </nav>
-    </header>    
-    <main class="main">
+    </header>
+
+    <main id="inicio" class="main">
         <section class="product">
             <h2 class="product__title">Productos</h2>
             <div class="product__cards">
                 
                 <article class="card">
                     <figure class="card__figure">
-                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
                     </figure>
+                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
+                        
+                    <div class="card__content-text">
+                        <header class="card__header">
+                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
+                            <div class="card__category">
+                                <i class="fa-solid fa-tag"></i>
+                                <span>Perfume</span>
+                            </div>
+                        </header>
+                        <section class="card__description">
+                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                        </section>
+                        <footer class="card__footer">
+                            <div class="card__pricing">
+                                <strong class="card__price-new">
+                                    <i class="fa-solid fa-dollar-sign"></i>99.99
+                                </strong>
+                                <del class="card__price-old">
+                                    <i class="fa-solid fa-dollar-sign"></i>129.99
+                                </del>
+                            </div>
+                            <button type="button" class="card-btn">
+                                agregar al
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </footer>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <figure class="card__figure">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                    </figure>
+                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
+                        
                     <div class="card__content-text">
                         <header class="card__header">
                             <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
@@ -95,8 +146,12 @@
                 </article>
                 <article class="card">
                     <figure class="card__figure">
-                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
                     </figure>
+                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
+                        
                     <div class="card__content-text">
                         <header class="card__header">
                             <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
@@ -126,8 +181,10 @@
                 </article>
                 <article class="card">
                     <figure class="card__figure">
-                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
                     </figure>
+                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
+                        
                     <div class="card__content-text">
                         <header class="card__header">
                             <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
@@ -157,8 +214,12 @@
                 </article>
                 <article class="card">
                     <figure class="card__figure">
-                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
                     </figure>
+                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
+                        
                     <div class="card__content-text">
                         <header class="card__header">
                             <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
@@ -188,8 +249,11 @@
                 </article>
                 <article class="card">
                     <figure class="card__figure">
-                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
                     </figure>
+                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
+                        
                     <div class="card__content-text">
                         <header class="card__header">
                             <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
@@ -219,39 +283,12 @@
                 </article>
                 <article class="card">
                     <figure class="card__figure">
-                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
+                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
                     </figure>
-                    <div class="card__content-text">
-                        <header class="card__header">
-                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
-                            <div class="card__category">
-                                <i class="fa-solid fa-tag"></i>
-                                <span>Perfume</span>
-                            </div>
-                        </header>
-                        <section class="card__description">
-                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-                        </section>
-                        <footer class="card__footer">
-                            <div class="card__pricing">
-                                <strong class="card__price-new">
-                                    <i class="fa-solid fa-dollar-sign"></i>99.99
-                                </strong>
-                                <del class="card__price-old">
-                                    <i class="fa-solid fa-dollar-sign"></i>129.99
-                                </del>
-                            </div>
-                            <button type="button" class="card-btn">
-                                agregar al
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
-                        </footer>
-                    </div>
-                </article>
-                <article class="card">
-                    <figure class="card__figure">
-                    <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                    </figure>
+                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
+                        
                     <div class="card__content-text">
                         <header class="card__header">
                             <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
@@ -331,14 +368,13 @@
                     <textarea id="mensaje" name="mensaje" placeholder="Escribir un mensaje" required></textarea>
                 </label>
 
-                <input type="submit" value="Habremos">
+                <input type="submit" value="Hablemos">
             </form>
         </section>
     </main>
+
     <footer class="footer">
         <p>footer</p>
     </footer>
-
-    
 </body>
 </html>

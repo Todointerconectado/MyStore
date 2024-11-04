@@ -7,6 +7,7 @@
 
 @import url('./components/card.css');
 
+
 .main {
     min-height: 100dvh;
     display: flex;
@@ -19,9 +20,11 @@
 }
 
 .product__title {
-    padding: 15px 0;
+    padding: 30px 0;
     text-align: center;
     font-size: var(--size-25);
+    text-transform: uppercase;
+    letter-spacing: var(--letter-spacing-2);
     font-weight: 700;
 }
 
