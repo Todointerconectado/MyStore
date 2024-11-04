@@ -2,9 +2,9 @@
 
 :root {
     /* VARIABLES DE COLORES */
-    --color-primary-aside:  #79d0ab;
-    --color-primary-header: #023E8A;
-    --color-primary-main: #24A56F34;
+    --color-primary-aside:  #79D0AAFF;
+    --color-primary-header: #2C2C7DFF;
+    --color-primary-main: #D2EDE2;
     --color-primary-footer: #15151534;
     --color-btn: #3C8067;
     --color-btn-hover: #4F8C76;
@@ -13,6 +13,7 @@
     --color-card-text: #6C7289;
     --color-card-name: #1C232B;
     --color-white: #FFFFFFFF;
+    --color-brack: #00000088;
 
     /* VARIABLES */
     --family-primary: "Roboto", monospace, sans-serif;
@@ -22,6 +23,7 @@
     --size-2 : 2rem;
     --size-25: 2.5rem;
     --card-text-line-height: 23px;
+    --letter-spacing-2: 2px;
 
     /* VARIABLES DE ASPECTO */
     --border-radius-top: 10px;
