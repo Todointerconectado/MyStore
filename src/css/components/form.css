@@ -1,0 +1,24 @@
+.form {
+    border: 2px solid #ff0000;
+    padding: 10px;
+
+    .form__fieldset {
+        padding: 10px;
+        gap: 20px;
+        display: grid;
+        place-content: center;
+        text-align: center;
+    
+        .form__title {
+            border: 1px solid red;
+            padding: 0 10px;
+            text-align: center;
+        }
+    
+        .form__label {
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+        }
+    }
+} 

@@ -1,5 +1,4 @@
 .aside {
-    padding: 3px;
     position: sticky;
     width: 100%;
     height: auto;
@@ -7,6 +6,15 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 1.4rem;
-    z-index: 1;
+    font-size: var(--size-14);
+    z-index: 6;
+    background: var(--color-primary-aside);
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    font-weight: bold;
+
+    .aside__p {
+        padding: 5px;
+        padding-bottom: 9px;
+    }
 }
