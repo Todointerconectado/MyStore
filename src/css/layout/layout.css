@@ -8,6 +8,12 @@
     list-style: none;
     text-decoration: none;
 }
+*:focus {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: none;
+}
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -25,6 +31,9 @@ html {
     gap: 0px;
     font-family: var(--family-primary);
     font-size: var(--size-14);
+    background: #2143EAFF;
+    background: radial-gradient(circle, #2143EAFF 0%, #000000FF 75%);
+    color: var(--color-white);
 }
 
 h1, h2, h3, h4 {
@@ -33,20 +42,15 @@ h1, h2, h3, h4 {
 p {
     text-wrap: pretty;
 }
-
 .aside {
     grid-area: aside;
-    background: var(--color-primary-aside);
 }
-
 .header {
     grid-area: header;
 }
 .main {
     grid-area: main;
-    background: var(--color-primary-main);
 }
 .footer {
     grid-area: footer;
-    background: var(--color-primary-footer);
 }

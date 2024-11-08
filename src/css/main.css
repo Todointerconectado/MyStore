@@ -6,6 +6,7 @@
 @import url('./layout/footer.css');
 
 @import url('./components/card.css');
+@import url('./components/form.css');
 
 
 .main {
@@ -27,9 +28,6 @@
     letter-spacing: var(--letter-spacing-2);
     font-weight: 700;
 }
-
-
-
 
 /** Reseñas */
 .reviews {
