@@ -4,10 +4,12 @@
     /* VARIABLES DE COLORES */
     --color-primary-aside:  #79D0AAFF;
     --color-primary-header: #2C2C7DFF;
+    --color-azul-hover: #2C2C7DE6;
     --color-primary-main: #D2EDE2;
     --color-primary-footer: #15151534;
     --color-btn: #3C8067;
     --color-btn-hover: #4F8C76;
+    --color-background-filter: #FFFFFF53;
 
     /* VARIABRES DE LAS CARD */
     --color-card-text: #6C7289;

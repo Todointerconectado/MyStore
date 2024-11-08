@@ -352,7 +352,8 @@
         </section>
 
         <section class="form__container">
-            <form class="form" action="https://formspree.io/f/{form_id}" method="post">
+            <form class="form" action="https://formspree.io/f/mrbgqjyw"
+            method="POST">
                 <fieldset class="form__fieldset">
                     <legend>
                         <h2 class="form__title" id="form">Formulario de Contacto</h2>
@@ -360,33 +361,33 @@
         
                     <!-- Campo Nombre -->
                     <label for="name" class="form__label form__name">
-                        <p>Nombre:</p>
+                        <input class="form__input" type="text" name="name" id="name" placeholder="Nombre" required>
+                        <p class="form__input-name">nombre</p>
                         <span class="form__icon">
-                            <span><i class="fa-solid fa-asterisk"></i></span>
+                            <span class="form__obrigatorio"><i class="fa-solid fa-asterisk"></i></span>
                             <i class="fa-solid fa-user-pen"></i>
                         </span>
-                        <input type="text" name="name" id="name" placeholder="Nombre..." required>
                     </label>
         
                     <!-- Campo Correo -->
                     <label for="email" class="form__label form__email">
-                        <p>Correo:</p>
+                        <input class="form__input" type="email" name="email" id="email" placeholder="Correo" required>
+                        <p class="form__input-name">Correo</p>
                         <span class="form__icon">
-                            <span><i class="fa-solid fa-asterisk"></i></span> 
+                            <span class="form__obrigatorio"><i class="fa-solid fa-asterisk"></i></span> 
                             <i class="fa-solid fa-at"></i>
                         </span>
-                        <input type="email" name="email" id="email" placeholder="Correo..." required>
                     </label>
         
                     <!-- Campo Mensaje -->
                     <label for="mensaje" class="form__label form__area">
-                        <p>Mensaje:</p>
+                        <textarea class="form__input form__input" id="mensaje" name="mensaje" placeholder="Mensaje" rows="5"></textarea>
+                        <p class="form__input-name">Mensaje</p>
                         <span class="form__icon"><i class="fa-solid fa-file-signature"></i></span>
-                        <textarea id="mensaje" name="mensaje" placeholder="Escribir un mensaje..."></textarea>
                     </label>
         
                     <!-- Botón de Enviar -->
-                    <button type="submit">
+                    <button class="form__btn" type="submit">
                         <span>Hablemos</span>
                         <i class="fa-solid fa-square-arrow-up-right"></i>
                     </button>
