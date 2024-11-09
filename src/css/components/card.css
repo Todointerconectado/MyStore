@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
-    gap: 25px;
+    gap: 5px;
 }
 
 /* Estilos para modo horizontal (landscape) */

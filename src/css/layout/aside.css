@@ -9,9 +9,9 @@
     text-align: center;
     font-weight: 700;
     font-size: var(--size-16);
-    color: var(--color-card-name);
+    color: var(--color-yellow);
     box-shadow: 0 0 10px var(--color-brack);
-    background: var(--color-background-filter);
+    background: #2C2C7D83;
     backdrop-filter: blur(2px);
     font-weight: bold;
 

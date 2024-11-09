@@ -5,6 +5,7 @@
 @import url('./layout/header.css');
 @import url('./layout/footer.css');
 
+@import url("./components/somos.css");
 @import url('./components/card.css');
 @import url('./components/form.css');
 
@@ -37,6 +38,7 @@
 /** Formulario */
 .form__container {
     border: 1px solid blur;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
