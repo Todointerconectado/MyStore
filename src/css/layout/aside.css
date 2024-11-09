@@ -1,12 +1,22 @@
 .aside {
-    padding: 3px;
     position: sticky;
+    z-index: 6;
     width: 100%;
     height: auto;
     top: 0;
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 1.4rem;
-    z-index: 1;
+    font-weight: 700;
+    font-size: var(--size-16);
+    color: var(--color-yellow);
+    box-shadow: 0 0 10px var(--color-brack);
+    background: #2C2C7D83;
+    backdrop-filter: blur(2px);
+    font-weight: bold;
+
+    .aside__p {
+        padding: 5px;
+        padding-bottom: 9px;
+    }
 }

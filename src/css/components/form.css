@@ -1,0 +1,139 @@
+.form {
+    padding: 10px;
+    border-radius: var(--border-radius-top);
+    background: var(--color-white);
+    color: #000000;
+    backdrop-filter: blur(10px);
+    width: 100%;
+
+    .form__fieldset {
+        border-radius: 6px;
+        padding: 10px 40px;
+        gap: 20px;
+        display: grid;
+        text-align: center;
+        font-weight: bold;
+    
+        .form__title {
+            border: 1px solid #848484FF;
+            border-radius: var(--border-radius-top);
+            padding: 0 10px;
+            text-align: center;
+        }
+    
+        .form__label {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            cursor: pointer;
+
+            .form__input-name {
+                text-transform: capitalize;
+                position: absolute;
+                background: var(--color-white);
+                transform: translateY(15px);
+                transition: transform .5s, color .3s;
+
+                &:after {
+                    content: "...";
+                }
+            }
+
+            /* icons de los inputs */
+            .form__icon {
+                width: 20px;
+                display: flex;
+                font-size: var(--size-14);
+                position: absolute;
+                right: 10px;
+                bottom: 6px;
+
+                .form__obrigatorio {
+                    padding-right: 3px;
+                    color: #530909FF;
+                    font-size: 1.1rem;
+                    position: absolute;
+                    display: flex;
+                    position: absolute;
+                    right: 18px;
+                    bottom: 8px;
+                }
+            }
+
+            .form__input {
+                border: none;
+                border-bottom: 1px solid #848484FF;
+                padding: 10px;
+                outline: none;
+                font-family: var(--family-primary);
+                cursor: pointer;
+
+                &::placeholder {
+                    color: transparent;
+                }
+
+                /* El selector ~ aplica estilos a los elementos hermanos que están en el mismo nivel y vienen después del elemento seleccionado */
+                &:focus ~ .form__input-name,
+                /* Aplica estilos cuando el input tiene contenido, gracias a :not(:placeholder-shown) */
+                &:not(:placeholder-shown) + .form__input-name {
+                    transform: translateY(-8px) scale(.9) translateX(5px);
+                    color: var(--color-card-text);
+                }
+                /* Muestra un ':' después del label solo cuando el campo está enfocado o tiene contenido */
+                &:focus ~ .form__input-name:after,
+                &:not(:placeholder-shown) + .form__input-name:after {
+                    content: ":";
+                }
+            }
+
+            .form__input-area {
+                width: 100%;
+                resize: vertical;
+                height: 100%;
+                min-height: 5lh;
+                max-height: 10lh;
+                field-sizing: content;
+                overflow: auto; 
+
+                /* Estilos de scroll para Firefox */
+                scrollbar-width: auto;
+                scrollbar-color: var(--color-primary-header) #F8F2F2FF; 
+
+                /* Estilos de scroll en Chrome, Edge y Safari */
+                &::-webkit-scrollbar {
+                    width: 10px; /* Ancho del scrollbar */
+                }
+
+                &::-webkit-scrollbar-track {
+                    background: #F8F2F2FF; /* Fondo del track */
+                    border-radius: 10px; /* Bordes redondeados del track */
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    border: 2px solid #FFFFFF; /* Borde del thumb */
+                    border-radius: 10px;
+                    background-color: var(--color-primary-header); /* Color del thumb */
+                }
+
+                &::-webkit-scrollbar-thumb:hover {
+                    background-color: var(--color-azul-hover); /* Color cuando el thumb es hover */
+                }
+            }
+        }
+    }
+
+    .form__btn {
+        border-radius: 8px;
+        padding: 10px;
+        text-transform: uppercase;
+        font-weight: 700;
+        background: var(--color-btn);
+        color: var(--color-white);
+        letter-spacing: 2px;
+        cursor: pointer;
+    
+        &:hover {
+            background: var(--color-btn-hover);
+        }
+    }
+} 
