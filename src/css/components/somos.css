@@ -1,0 +1,40 @@
+.somos {
+
+    .somos__title {
+        border-bottom-left-radius: var(--border-radius-wave);
+        padding: 40px 10px;
+        background: white;
+        color: black;
+        font-size: var(--size-14);
+        position: relative;
+        text-align: center;
+
+        &::after {
+            content: "";
+            width: 40px;
+            height: 40px;
+            background: white;
+            position: absolute;
+            bottom: -40px;
+            right: 0px;
+            z-index: -1;
+        }
+    }
+
+    .somos__text {
+        padding: 10px;
+        padding-bottom: 0;
+        background: #2AE0E0FF;
+        font-size: var(--size-16);
+        
+        /* Selecciona el primer elemento de tipo .somos__text dentro de su contenedor*/
+        &:first-of-type {
+            border-top-right-radius: var(--border-radius-wave);
+            padding-top: 30px;
+        }
+
+        & strong {
+            color: var(--color-yellow);
+        }
+    }
+}

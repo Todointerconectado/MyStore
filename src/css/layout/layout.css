@@ -32,7 +32,7 @@ html {
     font-family: var(--family-primary);
     font-size: var(--size-14);
     background: #2143EAFF;
-    background: radial-gradient(circle, #2143EAFF 0%, #102828FF 75%);
+    background: radial-gradient(circle, #20944FFF 0%, #2AE0E0FF 75%);
     color: var(--color-white);
 }
 

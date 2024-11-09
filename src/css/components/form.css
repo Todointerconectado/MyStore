@@ -7,6 +7,7 @@
     width: 100%;
 
     .form__fieldset {
+        border-radius: 6px;
         padding: 10px 40px;
         gap: 20px;
         display: grid;
@@ -89,8 +90,8 @@
                 width: 100%;
                 resize: vertical;
                 height: 100%;
-                min-height: 100px;
-                max-height: 200px;
+                min-height: 5lh;
+                max-height: 10lh;
                 field-sizing: content;
                 overflow: auto; 
 

@@ -16,6 +16,7 @@
     --color-card-name: #1C232B;
     --color-white: #FFFFFFFF;
     --color-brack: #00000088;
+    --color-yellow: #FFD000FF;
 
     /* VARIABLES */
     --family-primary: "Roboto", monospace, sans-serif;
@@ -29,4 +30,5 @@
 
     /* VARIABLES DE ASPECTO */
     --border-radius-top: 10px;
+    --border-radius-wave: 30px;
 }

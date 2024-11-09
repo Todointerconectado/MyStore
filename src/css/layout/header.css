@@ -1,6 +1,7 @@
 /* Estilos del encabezado */
 
 .header {
+    border-top-left-radius: var(--border-radius-wave);
     position: sticky;
     z-index: 10;
     bottom: 0;
@@ -8,6 +9,19 @@
     font-size: var(--size-2);
     background: var(--color-primary-header);
     box-shadow: 0 0 10px var(--color-brack);
+
+    &::before {
+        content: "";
+        --cuadrado: 50px;
+        width: var(--cuadrado);
+        height: var(--cuadrado);
+        background: transparent;
+        border-radius: 50%;
+        box-shadow: 20px 20px 0 var(--color-primary-header);
+        top: -50px;
+        right: 0;
+        position: absolute;
+    }
 }
 
 .logo {
