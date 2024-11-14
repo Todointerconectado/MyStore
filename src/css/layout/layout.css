@@ -54,3 +54,14 @@ p {
 .footer {
     grid-area: footer;
 }
+
+/* ------- > 430px a los 770px ------- */
+@media only screen and (min-width: 800px) {
+    .body {
+        grid-template-areas:
+            "header"
+            "aside"
+            "main"
+            "footer";
+    }
+}
