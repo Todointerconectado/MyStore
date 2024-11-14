@@ -1,0 +1,100 @@
+/* ------- > 430px a los 770px ------- */
+@media only screen and (min-width: 800px) {
+
+    .product__cards,
+    .reviews,
+    .form{
+    max-width: 1400px;
+    }
+
+    /* HEADER */
+    .header {
+        padding: 0 577px;
+        border-radius: 0;
+        top: 0;
+        display: flex;
+        align-items: center;
+
+        &::before {
+            content: none;
+        }
+        & .nav__list {
+            justify-content: right;
+            gap: 0;
+        }
+        & .nav__link {
+            width: 100%;
+            background: none;
+            box-shadow: none;
+            font-size: var(--size-20);
+            font-size: 60px;
+        
+            .fa-solid {
+                display: none
+            }
+            .nav__link__span {
+                font-size: var(--size-16);
+            }
+        }
+        .logo {
+            display: flex;
+            white-space: nowrap;
+            height: 32px;
+
+            & .logo__a {
+                display: flex;
+                gap: var(--gap-10);
+                color: var(--color-white);
+                font-size: var(--size-16);
+
+                & .logo__img-title {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    /* SOMOS */
+    .somos {
+        margin: 0 auto;
+        max-width: 1400px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        & .somos__text {
+            border-radius: 0;
+            padding: 10px;
+            padding-bottom: 0;
+            background: transparent;
+            font-size: var(--size-16);
+            
+            &:first-of-type {
+                border-top-right-radius: 0px;
+            }
+        }
+    }
+
+    /* CARDS */
+    .product__cards {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        justify-content: center;
+        gap: 30px;
+    }
+
+    /* RESEÑAS */
+
+    .review__card1 {
+        align-self: flex-start;
+    }
+    .review__card3 {
+        align-self: flex-end;
+    }
+
+    /* FORM */
+    
+} 

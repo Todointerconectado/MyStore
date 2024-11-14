@@ -4,11 +4,12 @@
 @import url('./layout/aside.css');
 @import url('./layout/header.css');
 @import url('./layout/footer.css');
+@import url('./layout/mediaquery.css');
 
-@import url("./components/somos.css");
+@import url('./components/somos.css');
 @import url('./components/card.css');
+@import url('./components/reseñas.css');
 @import url('./components/form.css');
-
 
 .main {
     min-height: 100dvh;
@@ -28,11 +29,6 @@
     text-transform: uppercase;
     letter-spacing: var(--letter-spacing-2);
     font-weight: 700;
-}
-
-/** Reseñas */
-.reviews {
-    border: 1px solid;
 }
 
 /** Formulario */
