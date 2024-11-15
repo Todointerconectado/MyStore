@@ -62,7 +62,7 @@
         max-width: 1400px;
         text-align: center;
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
 
         & .somos__text {
             border-radius: 0;
