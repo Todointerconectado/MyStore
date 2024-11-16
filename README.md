@@ -1,5 +1,7 @@
 # <div align="center"> Proyecto Final - Tienda Online </div>
 
+![Mockup](./assets/images/mockup.png)
+
 Este repositorio contiene el desarrollo de una tienda online funcional, diseñada como parte del curso Frontend de Talento Tech. El proyecto sigue buenas prácticas de desarrollo web, incluyendo el uso de **HTML5 semántico**, **CSS3**, **JavaScript** y un enfoque **Mobile First**. Se implementaron tecnologías como **Flexbox** y **Grid** para el diseño responsivo, y el formulario de contacto es gestionado por **Formspree**.
 
 ## Descripción General del Proyecto

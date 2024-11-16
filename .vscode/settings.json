@@ -5,9 +5,12 @@
         "header",
         "card",
         "form",
-        "somos"
+        "somos",
+        "desktop",
+        "main"
     ],
     "cSpell.words": [
+        "mystore",
         "ofertas"
     ]
 }

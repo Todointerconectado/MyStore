@@ -23,14 +23,16 @@
     gap: 32px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(1fr 2fr);
+    
+    box-shadow: 2px 2px 5px #6C6C70FF;
     transition: 
                 transform 300ms ease,
                 box-shadow 300ms ease;
     
 }
 .review__card:hover {
-    transform: scale(1.08);
-    box-shadow: 2px 2px 10px black;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 5px black;
 }
 
 .review__card figure {

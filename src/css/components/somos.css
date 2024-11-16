@@ -24,7 +24,7 @@
     .somos__text {
         padding: 10px;
         padding-bottom: 0;
-        background: #2AE0E0FF;
+        background: var(--color-primary-header);
         font-size: var(--size-16);
         
         /* Selecciona el primer elemento de tipo .somos__text dentro de su contenedor*/
