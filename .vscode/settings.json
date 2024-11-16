@@ -6,9 +6,11 @@
         "card",
         "form",
         "somos",
-        "desktop"
+        "desktop",
+        "main"
     ],
     "cSpell.words": [
+        "mystore",
         "ofertas"
     ]
 }
