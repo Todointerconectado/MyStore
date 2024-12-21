@@ -1,4 +1,5 @@
-# <div align="center"> Proyecto Final - Tienda Online </div>
+# <div align="center"> Proyecto Final - Tienda Online [![GitHub Todointerconectado](https://img.shields.io/badge/todointerconectado.com/-mystore-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](https://todointerconectado.com/mystore)
+</div>
 
 ![Mockup](./assets/images/mockup.png)
 
@@ -23,47 +24,24 @@ Puedes acceder a la versión desplegada de la tienda online a través del siguie
 
  [![GitHub Todointerconectado](https://img.shields.io/badge/todointerconectado.com/-mystore-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](https://todointerconectado.com/mystore)
 
-### Tecnologías Utilizadas
+## Tecnologías Utilizadas
+Este proyecto fue desarrollado utilizando las siguientes tecnologías y metodologías:
 
-- HTML5 Semántico
-- CSS3
-- JavaScript
-- Flexbox y Grid
-- Mobile First
-- Formspree (para manejo de formularios)
+|   Tecnología:    | Descripción |
+| :--------------: | ----------- |
+|`HTML5 Semántico:`| Optimización para SEO y accesibilidad.          |
+| `CSS3:`          | Diseño respectivo con Flexbox y Grid.           |
+| `CSS Modular`    |	Estilos organizados en módulos reutilizables y aislados. |
+| `Metodología BEM`|	Nomenclatura para organizar y escalar estilos CSS. |
+| `JavaScript:`    | Interactividad y manejo de eventos.             |
+| `Flexbox y Grid:`| Construcción de layouts flexibles y adaptables. |
+| `Mobile First:`  | Enfoque en dispositivos móviles desde el inicio.|
+| `Formspree:`     | Gestión y envío de formularios de contacto.     |
 
-## Arquitectura del proyecto
+## Arquitectura del proyecto: Detalles del Proceso de Desarrollo
 
-<details>
-    <summary>Ver Estructura del Proyecto</summary>
+1. Incluye los pasos iniciales y las implementaciones preliminares: 
+[![GitHub Todointerconectado](https://img.shields.io/badge/archivo-pre--entrega-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](./docs/PRE-ENTREGA.md) 
 
-  <pre>
-/my-store
-├── <a href="./Index.html">Index.html</a>
-├── <a href="./README.md">README.md</a>
-├── <a href="./docs">/docs</a>
-│   ├── <a href="./docs/PRE-ENTREGA.md">PRE-ENTREGA.md</a>
-│   └── <a href="./docs/ENTREGA-FINAL.md">ENTREGA-FINAL.md</a>
-├── <a href="./assets">/assets</a>
-│   ├── <a href="./assets/favicon/">favicon</a>
-│   └── <a href="./assets/images/">images</a>
-└── <a href="./src">/src</a>
-    ├── <a href="./src/js">/js</a>
-    │   ├── <a href="./src/js/modules">/modules</a>
-    │   │   └── <a href="./src/js/modules/api.mjs">api.mjs</a>
-    │   └── <a href="./src/js/apps.mjs">apps.mjs</a>
-    └── <a href="./src/css">/css</a>
-        ├── <a href="./src/main.css">main.css</a>
-        ├── <a href="./src/css/base">/base</a>
-        │   └── <a href="./src/css/base/variables.css">variables.css</a>
-        ├── <a href="./src/css/components" >/components</a>
-        │   ├── <a href="./src/css/components/button.css">button.css</a>
-        │   └── <a href="./src/css/components/card.css">card.css</a>
-        └── <a href="./src/css/layout" >/layout</a>
-            ├── <a href="./src/css/layout/footer.css">footer.css</a>
-            ├── <a href="./src/css/layout/header.css">header.css</a>
-            └── <a href="./src/css/layout/layout.css">layout.css</a>
-  </pre>
-</details>
-
-> *Nota:* Puedes consultar los detalles del proceso de desarrollo en los archivos de la pre-entrega y la entrega final para obtener una descripción más detallada de los cambios y las implementaciones realizadas durante el curso.
+2. Proporciona una descripción detallada de los cambios y mejoras realizadas durante el curso:
+[![GitHub Todointerconectado](https://img.shields.io/badge/archivo-entrega--final-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](./docs/ENTREGA-FINAL.md)
