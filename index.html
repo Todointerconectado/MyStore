@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -117,8 +117,8 @@
 
         <section id="product"  class="product">
             <h2 class="product__title">Productos</h2>
-            <div class="product__cards">
-                
+            <div id="container_cards" class="product__cards">
+                <!-- Modelo de las card -->
                 <article class="card">
                     <figure class="card__figure">
                         <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
@@ -154,261 +154,95 @@
                         </footer>
                     </div>
                 </article>
-
-                <article class="card">
-                    <figure class="card__figure">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                    </figure>
-                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
-                        
-                    <div class="card__content-text">
-                        <header class="card__header">
-                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
-                            <div class="card__category">
-                                <i class="fa-solid fa-tag"></i>
-                                <span>Perfume</span>
-                            </div>
-                        </header>
-                        <section class="card__description">
-                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-                        </section>
-                        <footer class="card__footer">
-                            <div class="card__pricing">
-                                <strong class="card__price-new">
-                                    <i class="fa-solid fa-dollar-sign"></i>99.99
-                                </strong>
-                                <del class="card__price-old">
-                                    <i class="fa-solid fa-dollar-sign"></i>129.99
-                                </del>
-                            </div>
-                            <button type="button" class="card-btn">
-                                agregar al
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
-                        </footer>
-                    </div>
-                </article>
-                <article class="card">
-                    <figure class="card__figure">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                    </figure>
-                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
-                        
-                    <div class="card__content-text">
-                        <header class="card__header">
-                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
-                            <div class="card__category">
-                                <i class="fa-solid fa-tag"></i>
-                                <span>Perfume</span>
-                            </div>
-                        </header>
-                        <section class="card__description">
-                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-                        </section>
-                        <footer class="card__footer">
-                            <div class="card__pricing">
-                                <strong class="card__price-new">
-                                    <i class="fa-solid fa-dollar-sign"></i>99.99
-                                </strong>
-                                <del class="card__price-old">
-                                    <i class="fa-solid fa-dollar-sign"></i>129.99
-                                </del>
-                            </div>
-                            <button type="button" class="card-btn">
-                                agregar al
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
-                        </footer>
-                    </div>
-                </article>
-                <article class="card">
-                    <figure class="card__figure">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                    </figure>
-                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
-                        
-                    <div class="card__content-text">
-                        <header class="card__header">
-                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
-                            <div class="card__category">
-                                <i class="fa-solid fa-tag"></i>
-                                <span>Perfume</span>
-                            </div>
-                        </header>
-                        <section class="card__description">
-                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-                        </section>
-                        <footer class="card__footer">
-                            <div class="card__pricing">
-                                <strong class="card__price-new">
-                                    <i class="fa-solid fa-dollar-sign"></i>99.99
-                                </strong>
-                                <del class="card__price-old">
-                                    <i class="fa-solid fa-dollar-sign"></i>129.99
-                                </del>
-                            </div>
-                            <button type="button" class="card-btn">
-                                agregar al
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
-                        </footer>
-                    </div>
-                </article>
-                <article class="card">
-                    <figure class="card__figure">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                    </figure>
-                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
-                        
-                    <div class="card__content-text">
-                        <header class="card__header">
-                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
-                            <div class="card__category">
-                                <i class="fa-solid fa-tag"></i>
-                                <span>Perfume</span>
-                            </div>
-                        </header>
-                        <section class="card__description">
-                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-                        </section>
-                        <footer class="card__footer">
-                            <div class="card__pricing">
-                                <strong class="card__price-new">
-                                    <i class="fa-solid fa-dollar-sign"></i>99.99
-                                </strong>
-                                <del class="card__price-old">
-                                    <i class="fa-solid fa-dollar-sign"></i>129.99
-                                </del>
-                            </div>
-                            <button type="button" class="card-btn">
-                                agregar al
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
-                        </footer>
-                    </div>
-                </article>
-                <article class="card">
-                    <figure class="card__figure">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                    </figure>
-                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
-                        
-                    <div class="card__content-text">
-                        <header class="card__header">
-                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
-                            <div class="card__category">
-                                <i class="fa-solid fa-tag"></i>
-                                <span>Perfume</span>
-                            </div>
-                        </header>
-                        <section class="card__description">
-                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-                        </section>
-                        <footer class="card__footer">
-                            <div class="card__pricing">
-                                <strong class="card__price-new">
-                                    <i class="fa-solid fa-dollar-sign"></i>99.99
-                                </strong>
-                                <del class="card__price-old">
-                                    <i class="fa-solid fa-dollar-sign"></i>129.99
-                                </del>
-                            </div>
-                            <button type="button" class="card-btn">
-                                agregar al
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
-                        </footer>
-                    </div>
-                </article>
-                <article class="card">
-                    <figure class="card__figure">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                        <img class="card__img" src="./assets/images/product-mobile.jpg" alt="Imagen del producto" decoding="async" loading="lazy">
-                    </figure>
-                    <div class="card__gradient"></div> <!-- Contenedor para el gradiente -->
-                        
-                    <div class="card__content-text">
-                        <header class="card__header">
-                            <h2 class="card__name">Gabrielle Essence Eau De Parfum</h2>
-                            <div class="card__category">
-                                <i class="fa-solid fa-tag"></i>
-                                <span>Perfume</span>
-                            </div>
-                        </header>
-                        <section class="card__description">
-                            <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-                        </section>
-                        <footer class="card__footer">
-                            <div class="card__pricing">
-                                <strong class="card__price-new">
-                                    <i class="fa-solid fa-dollar-sign"></i>99.99
-                                </strong>
-                                <del class="card__price-old">
-                                    <i class="fa-solid fa-dollar-sign"></i>129.99
-                                </del>
-                            </div>
-                            <button type="button" class="card-btn">
-                                agregar al
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
-                        </footer>
-                    </div>
-                </article>
-
             </div>
         </section>
 
         <section class="reviews">
             <h2 class="reviews__title">Reseñas</h2>
 
-            <article class="review__card review__card1">
-            <figure>
-                <img src="./assets/images/perfil-reviews-1.jpg" alt="Foto de perfil">
-                <figcaption>
-                    Colton Smith 
-                    <span class="status">Verified Buyer</span>
-                </figcaption>
-            </figure>
-            <p>
-                "We needed the same printed design as the one we had ordered a week prior.
-                Not only did they find the original order, but we also received it in time.
-                Excellent!"
-            </p>
-            </article>
-        
-            <article class="review__card review__card2">
-            <figure>
-                <img src="./assets/images/perfil-reviews-2.jpg" alt="Foto de perfil">
-                <figcaption>
-                Irene Roberts <span class="status">Verified Buyer</span>
-                </figcaption>
-            </figure>
-            <p>
-                "Customer service is always excellent and very quick turn around. Completely
-                delighted with the simplicity of the purchase and the speed of delivery."
-            </p>
-            </article>
-        
-            <article class="review__card review__card3">
-            <figure>
-                <img src="./assets/images/perfil-reviews-3.jpg" alt="Foto de perfil">
-                <figcaption>
-                Anne Wallace <span class="status">Verified Buyer</span>
-                </figcaption>
-            </figure>
-            <p>
-                "Put an order with this company and can only praise them for the very high
-                standard. Will definitely use them again and recommend them to everyone!"
-            </p>
-            </article>
+            <div class="reviews__content">
+                <article class="review__card review__card1">
+                    <figure>
+                        <img src="./assets/images/perfil-reviews-1.jpg" alt="Foto de perfil">
+                        <figcaption>
+                            Colton Smith 
+                            <span class="status">Verified Buyer</span>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        "We needed the same printed design as the one we had ordered a week prior.
+                        Not only did they find the original order, but we also received it in time.
+                        Excellent!"
+                    </p>
+                </article>
+            
+                <article class="review__card review__card2">
+                <figure>
+                    <img src="./assets/images/perfil-reviews-2.jpg" alt="Foto de perfil">
+                    <figcaption>
+                    Irene Roberts <span class="status">Verified Buyer</span>
+                    </figcaption>
+                </figure>
+                <p>
+                    "Customer service is always excellent and very quick turn around. Completely
+                    delighted with the simplicity of the purchase and the speed of delivery."
+                </p>
+                </article>
+            
+                <article class="review__card review__card3">
+                <figure>
+                    <img src="./assets/images/perfil-reviews-3.jpg" alt="Foto de perfil">
+                    <figcaption>
+                    Anne Wallace <span class="status">Verified Buyer</span>
+                    </figcaption>
+                </figure>
+                <p>
+                    "Put an order with this company and can only praise them for the very high
+                    standard. Will definitely use them again and recommend them to everyone!"
+                </p>
+                </article>
+
+                <article class="review__card review__card1">
+                    <figure>
+                        <img src="./assets/images/perfil-reviews-1.jpg" alt="Foto de perfil">
+                        <figcaption>
+                            Colton Smith 
+                            <span class="status">Verified Buyer</span>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        "We needed the same printed design as the one we had ordered a week prior.
+                        Not only did they find the original order, but we also received it in time.
+                        Excellent!"
+                    </p>
+                </article>
+            
+                <article class="review__card review__card2">
+                <figure>
+                    <img src="./assets/images/perfil-reviews-2.jpg" alt="Foto de perfil">
+                    <figcaption>
+                    Irene Roberts <span class="status">Verified Buyer</span>
+                    </figcaption>
+                </figure>
+                <p>
+                    "Customer service is always excellent and very quick turn around. Completely
+                    delighted with the simplicity of the purchase and the speed of delivery."
+                </p>
+                </article>
+            
+                <article class="review__card review__card3">
+                <figure>
+                    <img src="./assets/images/perfil-reviews-3.jpg" alt="Foto de perfil">
+                    <figcaption>
+                    Anne Wallace <span class="status">Verified Buyer</span>
+                    </figcaption>
+                </figure>
+                <p>
+                    "Put an order with this company and can only praise them for the very high
+                    standard. Will definitely use them again and recommend them to everyone!"
+                </p>
+                </article>
+            </div>
         </section>
 
         <section class="form__container">
@@ -458,7 +292,10 @@
     </main>
 
     <footer class="footer">
-        <p>Desarrollado por Francisco Carusso. Todointerconectado</p>
+        <p>Desarrollado por</p>
+        <a class="footer__icon" target="_blank" href="https://todointerconectado.com" alt="web Todointerconectado">
+            Francisco Carusso | Todointerconectado | 
+        </a>
         <a class="footer__icon" target="_blank" href="https://github.com/Todointerconectado/mystore" alt="repositorio en GitHub">
             <i class="fa-brands fa-github"></i>
         </a>

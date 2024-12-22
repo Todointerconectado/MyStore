@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
-    gap: 5px;
+    gap: 30px;
 }
 
 /* Estilos para modo horizontal (landscape) */
@@ -207,3 +207,7 @@
     }
 }
 
+.card__img2 {
+    filter: hue-rotate(180deg); /* Cambia el color de la imagen */
+    transition: filter 0.3s ease; /* Transición suave */
+}
