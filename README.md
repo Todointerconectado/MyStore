@@ -1,4 +1,14 @@
-# <div align="center"> Proyecto Final - Tienda Online </div>
+# <div align="center"> Proyecto Final - Tienda Online</div>
+
+|  Insignias ✔  |
+| :-----------: |
+| [![GitHub pull requests](https://img.shields.io/github/issues-pr/Todointerconectado/tiendaJulieta?color=blue&logo=github)](https://github.com/Todointerconectado/mystore/pulls) • [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Todointerconectado/tiendaJulieta?color=blue&logo=github)](https://github.com/Todointerconectado/mystore/pulls) • [![GitHub forks](https://img.shields.io/github/forks/Todointerconectado/tiendaJulieta?logo=github)](https://github.com/Todointerconectado/mystore/fork)  •  [![GitHub NE Network](https://img.shields.io/badge/NE-Network-blue?logo=github)](https://github.com/Todointerconectado/mystore/network)
+[![GitHub followers](https://img.shields.io/github/followers/Todointerconectado?logo=github)](#)  •  [![GitHub repo size](https://img.shields.io/github/repo-size/Todointerconectado/mystore?logo=github)](#)  •  [![GitHub language count](https://img.shields.io/github/languages/count/Todointerconectado/mystore?logo=github)](#)  •  [![GitHub top language](https://img.shields.io/github/languages/top/Todointerconectado/mystore?logo=JavaScript)](#) |
+
+
+|  Puedes acceder a la versión desplegada de la tienda online a través del siguiente enlace: |
+| :-------------------------------------------------------: |
+| [![GitHub Todointerconectado](https://img.shields.io/badge/todointerconectado.com/-mystore-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](https://todointerconectado.com/mystore) |
 
 ![Mockup](./assets/images/mockup.png)
 
@@ -11,59 +21,23 @@ El proyecto es una tienda online que permite visualizar productos, realizar bús
 ## Estructura del Repositorio
 
 Este repositorio incluye las siguientes secciones y archivos clave:
+| [![GitHub Todointerconectado](https://img.shields.io/badge/archivo-pre--entrega-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](./docs/PRE-ENTREGA.md) | Detalla el progreso inicial del proyecto hasta la clase 8, cumpliendo con los requerimientos obligatorios del curso. |
+|:------:|:------:|
+| [![GitHub Todointerconectado](https://img.shields.io/badge/archivo-entrega--final-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](./docs/ENTREGA-FINAL.md) | Contiene la versión final del proyecto, con todas las funcionalidades implementadas y las mejoras sugeridas en las revisiones.|
+| **`SRC/`**| Carpeta que contiene todo el código fuente del proyecto, incluyendo los archivos CSS y JavaScript.
+| **`ASSETS/`**| Carpeta con las imágenes, íconos y otros recursos utilizados en la tienda online. |
 
-1. **[Pre-Entrega](./docs/PRE-ENTREGA.md)**: Detalla el progreso inicial del proyecto hasta la clase 8, cumpliendo con los requerimientos obligatorios del curso.
-2. **[Entrega Final](./docs/ENTREGA-FINAL.md)**: Contiene la versión final del proyecto, con todas las funcionalidades implementadas y las mejoras sugeridas en las revisiones.
-3. **`src/`**: Carpeta que contiene todo el código fuente del proyecto, incluyendo los archivos CSS y JavaScript.
-4. **`assets/`**: Carpeta con las imágenes, íconos y otros recursos utilizados en la tienda online.
 
-## Enlace al Proyecto
+## Tecnologías Utilizadas
+Este proyecto fue desarrollado utilizando las siguientes tecnologías y metodologías:
 
-Puedes acceder a la versión desplegada de la tienda online a través del siguiente enlace:
-
- [![GitHub Todointerconectado](https://img.shields.io/badge/todointerconectado.com/-mystore-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](https://todointerconectado.com/mystore)
-
-### Tecnologías Utilizadas
-
-- HTML5 Semántico
-- CSS3
-- JavaScript
-- Flexbox y Grid
-- Mobile First
-- Formspree (para manejo de formularios)
-
-## Arquitectura del proyecto
-
-<details>
-    <summary>Ver Estructura del Proyecto</summary>
-
-  <pre>
-/my-store
-├── <a href="./Index.html">Index.html</a>
-├── <a href="./README.md">README.md</a>
-├── <a href="./docs">/docs</a>
-│   ├── <a href="./docs/PRE-ENTREGA.md">PRE-ENTREGA.md</a>
-│   └── <a href="./docs/ENTREGA-FINAL.md">ENTREGA-FINAL.md</a>
-├── <a href="./assets">/assets</a>
-│   ├── <a href="./assets/favicon/">favicon</a>
-│   └── <a href="./assets/images/">images</a>
-└── <a href="./src">/src</a>
-    ├── <a href="./src/js">/js</a>
-    │   ├── <a href="./src/js/modules">/modules</a>
-    │   │   └── <a href="./src/js/modules/api.mjs">api.mjs</a>
-    │   └── <a href="./src/js/apps.mjs">apps.mjs</a>
-    └── <a href="./src/css">/css</a>
-        ├── <a href="./src/main.css">main.css</a>
-        ├── <a href="./src/css/base">/base</a>
-        │   └── <a href="./src/css/base/variables.css">variables.css</a>
-        ├── <a href="./src/css/components" >/components</a>
-        │   ├── <a href="./src/css/components/button.css">button.css</a>
-        │   └── <a href="./src/css/components/card.css">card.css</a>
-        └── <a href="./src/css/layout" >/layout</a>
-            ├── <a href="./src/css/layout/footer.css">footer.css</a>
-            ├── <a href="./src/css/layout/header.css">header.css</a>
-            └── <a href="./src/css/layout/layout.css">layout.css</a>
-  </pre>
-</details>
-
-> *Nota:* Puedes consultar los detalles del proceso de desarrollo en los archivos de la pre-entrega y la entrega final para obtener una descripción más detallada de los cambios y las implementaciones realizadas durante el curso.
+|   Tecnología:    | Descripción |
+| :--------------: | ----------- |
+|`HTML5 Semántico:`| Optimización para SEO y accesibilidad.          |
+| `CSS3:`          | Diseño respectivo con Flexbox y Grid.           |
+| `CSS Modular`    |	Estilos organizados en módulos reutilizables y aislados. |
+| `Metodología BEM`|	Nomenclatura para organizar y escalar estilos CSS. |
+| `JavaScript:`    | Interactividad y manejo de eventos.             |
+| `Flexbox y Grid:`| Construcción de layouts flexibles y adaptables. |
+| `Mobile First:`  | Enfoque en dispositivos móviles desde el inicio.|
+| `Formspree:`     | Gestión y envío de formularios de contacto.     |
