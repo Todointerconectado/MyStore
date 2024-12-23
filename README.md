@@ -1,5 +1,14 @@
-# <div align="center"> Proyecto Final - Tienda Online [![GitHub Todointerconectado](https://img.shields.io/badge/todointerconectado.com/-mystore-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](https://todointerconectado.com/mystore)
-</div>
+# <div align="center"> Proyecto Final - Tienda Online</div>
+
+|  Insignias ✔  |
+| :-----------: |
+| [![GitHub pull requests](https://img.shields.io/github/issues-pr/Todointerconectado/tiendaJulieta?color=blue&logo=github)](https://github.com/Todointerconectado/mystore/pulls) • [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Todointerconectado/tiendaJulieta?color=blue&logo=github)](https://github.com/Todointerconectado/mystore/pulls) • [![GitHub forks](https://img.shields.io/github/forks/Todointerconectado/tiendaJulieta?logo=github)](https://github.com/Todointerconectado/mystore/fork)  •  [![GitHub NE Network](https://img.shields.io/badge/NE-Network-blue?logo=github)](https://github.com/Todointerconectado/mystore/network)
+[![GitHub followers](https://img.shields.io/github/followers/Todointerconectado?logo=github)](#)  •  [![GitHub repo size](https://img.shields.io/github/repo-size/Todointerconectado/mystore?logo=github)](#)  •  [![GitHub language count](https://img.shields.io/github/languages/count/Todointerconectado/mystore?logo=github)](#)  •  [![GitHub top language](https://img.shields.io/github/languages/top/Todointerconectado/mystore?logo=JavaScript)](#) |
+
+
+|  Puedes acceder a la versión desplegada de la tienda online a través del siguiente enlace: |
+| :-------------------------------------------------------: |
+| [![GitHub Todointerconectado](https://img.shields.io/badge/todointerconectado.com/-mystore-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](https://todointerconectado.com/mystore) |
 
 ![Mockup](./assets/images/mockup.png)
 
@@ -12,17 +21,12 @@ El proyecto es una tienda online que permite visualizar productos, realizar bús
 ## Estructura del Repositorio
 
 Este repositorio incluye las siguientes secciones y archivos clave:
+| [![GitHub Todointerconectado](https://img.shields.io/badge/archivo-pre--entrega-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](./docs/PRE-ENTREGA.md) | Detalla el progreso inicial del proyecto hasta la clase 8, cumpliendo con los requerimientos obligatorios del curso. |
+|:------:|:------:|
+| [![GitHub Todointerconectado](https://img.shields.io/badge/archivo-entrega--final-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](./docs/ENTREGA-FINAL.md) | Contiene la versión final del proyecto, con todas las funcionalidades implementadas y las mejoras sugeridas en las revisiones.|
+| **`SRC/`**| Carpeta que contiene todo el código fuente del proyecto, incluyendo los archivos CSS y JavaScript.
+| **`ASSETS/`**| Carpeta con las imágenes, íconos y otros recursos utilizados en la tienda online. |
 
-1. **[Pre-Entrega](./docs/PRE-ENTREGA.md)**: Detalla el progreso inicial del proyecto hasta la clase 8, cumpliendo con los requerimientos obligatorios del curso.
-2. **[Entrega Final](./docs/ENTREGA-FINAL.md)**: Contiene la versión final del proyecto, con todas las funcionalidades implementadas y las mejoras sugeridas en las revisiones.
-3. **`src/`**: Carpeta que contiene todo el código fuente del proyecto, incluyendo los archivos CSS y JavaScript.
-4. **`assets/`**: Carpeta con las imágenes, íconos y otros recursos utilizados en la tienda online.
-
-## Enlace al Proyecto
-
-Puedes acceder a la versión desplegada de la tienda online a través del siguiente enlace:
-
- [![GitHub Todointerconectado](https://img.shields.io/badge/todointerconectado.com/-mystore-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](https://todointerconectado.com/mystore)
 
 ## Tecnologías Utilizadas
 Este proyecto fue desarrollado utilizando las siguientes tecnologías y metodologías:
@@ -37,11 +41,3 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías y metodolo
 | `Flexbox y Grid:`| Construcción de layouts flexibles y adaptables. |
 | `Mobile First:`  | Enfoque en dispositivos móviles desde el inicio.|
 | `Formspree:`     | Gestión y envío de formularios de contacto.     |
-
-## Arquitectura del proyecto: Detalles del Proceso de Desarrollo
-
-1. Incluye los pasos iniciales y las implementaciones preliminares: 
-[![GitHub Todointerconectado](https://img.shields.io/badge/archivo-pre--entrega-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](./docs/PRE-ENTREGA.md) 
-
-2. Proporciona una descripción detallada de los cambios y mejoras realizadas durante el curso:
-[![GitHub Todointerconectado](https://img.shields.io/badge/archivo-entrega--final-105d89?style=for-the-badge&logo=github&logoColor=white&labelColor=101)](./docs/ENTREGA-FINAL.md)
