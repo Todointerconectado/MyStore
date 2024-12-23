@@ -2,6 +2,14 @@
 
 Este proyecto es una tienda online completamente funcional desarrollada con HTML5, CSS3, JavaScript y algunas herramientas y bibliotecas modernas como Bootstrap. Su objetivo es ofrecer una experiencia de usuario intuitiva y fluida, con un diseño responsivo y funcionalidades dinámicas.
 
+# Proyecto Entrega-Final Frontend
+
+Este proyecto es parte de la entrega-final del curso Frontend de Talento Tech. El objetivo es demostrar el progreso final, cumpliendo con los **requerimientos obligatorios** establecidos para avanzar hacia la entrega final.
+
+## README
+
+También, leer el **[README.md](../README.md)**
+
 ## Requisitos Principales
 
 1. Estructura y Diseño Web

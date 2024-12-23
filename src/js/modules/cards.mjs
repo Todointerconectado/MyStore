@@ -1,8 +1,8 @@
 export const createCard = (producto) => {
-  const { title, price, description, category, image } = producto;
+  const { id, title, price, description, category, image } = producto;
 
   return `
-    <article class="card">
+    <article class="card" data-id="${id}">
       <figure class="card__figure">
           <img class="card__img" src="${image}" alt="${title}" decoding="async" loading="lazy">
           <img class="card__img card__img2" src="${image}" alt="${title}" decoding="async" loading="lazy">
