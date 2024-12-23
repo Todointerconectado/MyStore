@@ -27,7 +27,7 @@ URL: [https://todointerconectado.com/mystore](https://todointerconectado.com/mys
 
 4. **Diseño Responsivo con Flexbox y Grid: (<span style="color:rgba(150,10,0)">Requerimiento obligatorio</span>)**
    - La **sección "Productos"** está organizada utilizando **Flexbox** para asegurar una disposición responsiva de los elementos.
-   - La **sección "Reseñas"** emplea **Grid** para una distribución lógica y estética.
+   - La **sección "comentarios"** emplea **Grid** para una distribución lógica y estética.
    - La **sección "Contacto"** está diseñada de forma responsiva mediante el uso de **Media Queries**, asegurando la adaptabilidad a diferentes tamaños de pantalla.
 
 5. **Contenido Multimedia y Navegación: (<span style="color:rgba(150,10,0)">Requerimiento obligatorio</span>)**
